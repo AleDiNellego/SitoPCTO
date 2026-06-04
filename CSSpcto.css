@@ -1,0 +1,156 @@
+/* SEZIONE PCTO */
+
+.menu{
+
+   text-align: right;
+   background-color: rgb(255, 255, 255);
+   
+   font-size: 20px;
+
+}
+.menu img{
+width: 80px;
+    max-width: 100%;
+    height: auto;
+
+    transition: transform 0.3s;
+
+}
+.menu p{
+
+    font-size: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.nomeDX{
+
+    text-align: right;
+    padding-left: 900px;
+}
+
+.progetti {
+    width: 85%;
+    margin: 5px auto;
+}
+
+.titolo {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 30px;
+}
+
+.testoGrandino {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+/* TABELLA */
+
+.tabella-pcto {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* RIGHE */
+
+.tabella-pcto tr {
+    transition: background-color 0.3s;
+}
+
+.tabella-pcto tr:nth-child(even) {
+    background-color: #f8f9fc;
+}
+
+.tabella-pcto tr:hover {
+    background-color: #eef5ff;
+}
+
+/* CELLE */
+
+.tabella-pcto td {
+    padding: 25px;
+    vertical-align: top;
+    border-bottom: 1px solid #d9d9d9;
+    text-align: center;
+}
+
+/* COLONNA LOGHI */
+
+.logo {
+    width: 180px;
+    text-align: center;
+}
+
+.logo img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+
+    transition: transform 0.3s;
+}
+
+.logo img:hover {
+    transform: scale(1.08);
+}
+
+/* DESCRIZIONI */
+
+.descrizione h3 {
+    color: #004080;
+    margin-bottom: 12px;
+    font-size: 34px;
+}
+
+.descrizione p {
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* ULTIMA RIGA */
+
+.tabella-pcto tr:last-child td {
+    border-bottom: none;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+
+    .tabella-pcto,
+    .tabella-pcto tbody,
+    .tabella-pcto tr,
+    .tabella-pcto td {
+        display: block;
+        width: 100%;
+    }
+
+    .logo {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .descrizione {
+        text-align: center;
+    }
+
+    .descrizione p {
+        text-align: left;
+    }
+
+}
